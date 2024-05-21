@@ -1,0 +1,20 @@
+@import url(/css/base.css);
+
+#header
+{
+    text-align: center;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+    color: black;
+}
+
+#content > header
+{
+    display: flex;
+    flex-direction: column;
+}
